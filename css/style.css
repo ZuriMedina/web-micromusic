@@ -67,7 +67,7 @@ a:focus{
 	text-decoration: none;
 }
 #home{ /*Imagen fondo logo*/
-	background: url(../img/logo.png);
+	background: url(../img/logohome/Logohomewhite.png);
 	background-color: #343434;
 	background-size: cover;
 	background-position: center;
