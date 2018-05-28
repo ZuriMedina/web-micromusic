@@ -56,8 +56,8 @@
 
 	*, *:before, *:after {
 		-moz-box-sizing: border-box;
-		/*-webkit-box-sizing: border-box;*/
-		/*box-sizing: border-box;*/
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
 	}
 
 /* Basic */
@@ -1483,7 +1483,7 @@
 						background-color: rgba(255, 255, 255, 0.175);
 					}
 
-		#header nav.use-middle:after {
+		/*#header nav.use-middle:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1492,7 +1492,7 @@
 			width: 1px;
 			height: 100%;
 			background: #ffffff;
-		}
+		}*/
 
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
